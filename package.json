@@ -1,0 +1,15 @@
+{
+  "name": "leetcodebackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mainBE": " cd ./mainBE  && tsc -b && node dist/index.js",
+    "webSocket":"cd ./webSocket &&  tsc -b && node dist/index.js" ,
+    "worker":"cd ./worker && tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
